@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(216, 40%, 88%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    padding: 23px;
+    border-radius: 15px;
+    width: 355px;
+}
+
+.nft {
+    width: 305px;
+    border-radius: 15px;
+}
+
+h1 {
+    margin: 20px 48px 20px 0;
+}
+
+.container p {
+    color: #eceff4;
+    margin-bottom: 15px;
+}
+
+.price-day {
+    display: flex;
+    justify-content: space-between;
+    width: 305px;
+}
+
+.price {
+    display: flex;
+    justify-content: baseline;
+}
+
+.icon-ethereum {
+    margin-right: 5px;
+}
